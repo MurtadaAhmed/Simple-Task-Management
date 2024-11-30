@@ -1,5 +1,26 @@
 # Simple-Task-Management
 
+## Requirements:
+```
+pip install -r requirements.txt
+```
+
+## Migrations:
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Create a Superuser:
+```
+python manage.py createsuperuser
+```
+
+## Running the Server:
+```
+python manage.py runserver
+```
+
 ## Authentication:
 
 To authenticate, provide the **username** and **password** of an existing user in the database to get the **access** and **refresh tokens**.
